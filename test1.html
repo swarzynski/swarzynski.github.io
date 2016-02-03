@@ -12,6 +12,56 @@
 <body>
 
 <div class="container">
+  <h2>Standardowe podejście</h2>
+
+  <form class="form-horizontal" role="form">
+    <div class="form-group">
+      <label class="col-sm-2 control-label" for="sel1">Województwo:</label>
+      <div class="col-sm-10">
+      <select class="form-control" id="sel1">
+        <option>dolnośląskie</option>
+        <option>kujawsko-pomorskie</option>
+        <option>lubelskie</option>
+        <option>lubuskie</option>
+        <option>łódzkie</option>
+        <option>małopolskie</option>
+        <option>mazowieckie</option>
+        <option>opolskie</option>
+        <option>podkarpackie</option>
+        <option>podlaskie</option>
+        <option>pomorskie</option>
+        <option>śląskie</option>
+        <option>świętokrzyskie</option>
+        <option>warmińsko-mazurskie</option>
+        <option>wielkopolskie</option>
+        <option>zachodniopomorskie</option>
+      </select>
+      </div>
+    </div>
+  </form>
+
+ <h2>Selector z jQueryUI</h2> 
+
+  <form class="form-horizontal" role="form">
+    <div class="form-group">
+      <label class="col-sm-2 control-label" for="speed">Select a speed:</label>
+      <div class="col-sm-10">
+      <select class="form-control" name="speed" id="speed">
+        <option value="Slower">Slower</option>
+        <option value="Slow">Slow</option>
+        <option value="Medium" selected>Medium</option>
+        <option value="Fast">Fast</option>
+        <option value="Faster">Faster</option>
+      </select>
+      </div>
+    </div>
+  </form>
+
+  <script>
+  $( "#speed" ).selectmenu();
+  </script>
+
+
   <h2>Horizontal form: control states</h2>
   <form class="form-horizontal" role="form">
     <div class="form-group">
