@@ -7,7 +7,8 @@
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 </head>
 <body>
 
@@ -18,31 +19,37 @@
     <div class="form-group">
       <label class="col-sm-2 control-label" for="sel1">Województwo:</label>
       <div class="col-sm-10">
-      <select class="form-control" id="sel1">
-        <option>dolnośląskie</option>
-        <option>kujawsko-pomorskie</option>
-        <option>lubelskie</option>
-        <option>lubuskie</option>
-        <option>łódzkie</option>
-        <option>małopolskie</option>
-        <option>mazowieckie</option>
-        <option>opolskie</option>
-        <option>podkarpackie</option>
-        <option>podlaskie</option>
-        <option>pomorskie</option>
-        <option>śląskie</option>
-        <option>świętokrzyskie</option>
-        <option>warmińsko-mazurskie</option>
-        <option>wielkopolskie</option>
-        <option>zachodniopomorskie</option>
-      </select>
+	      <select class="form-control" id="sel1">
+	        <option>dolnośląskie</option>
+	        <option>kujawsko-pomorskie</option>
+	        <option>lubelskie</option>
+	        <option>lubuskie</option>
+	        <option>łódzkie</option>
+	        <option>małopolskie</option>
+	        <option>mazowieckie</option>
+	        <option>opolskie</option>
+	        <option>podkarpackie</option>
+	        <option>podlaskie</option>
+	        <option>pomorskie</option>
+	        <option>śląskie</option>
+	        <option>świętokrzyskie</option>
+	        <option>warmińsko-mazurskie</option>
+	        <option>wielkopolskie</option>
+	        <option>zachodniopomorskie</option>
+	      </select>
       </div>
     </div>
     <div class="form-group">
-    <label for="inputPassword" class="col-sm-2 control-label">Miejscowość:</label>
-    <div class="col-sm-10">
-      <input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." disabled>
+    <label for="place" class="col-sm-2 control-label">Miejscowość:</label>
+	    <div class="col-sm-10">
+	      <input class="form-control" id="place" type="text">
+	    </div>
     </div>
+    <div class="form-group">
+    <label for="street" class="col-sm-2 control-label">Ulica:</label>
+	    <div class="col-sm-10">
+	      <input class="form-control" id="street" type="text" placeholder="Disabled input here..." disabled>
+	    </div>
     </div>
   </form>
 
