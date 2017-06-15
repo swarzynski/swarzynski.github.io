@@ -13,8 +13,8 @@ fenced_code_blocks:  true
 permalink:           pretty
 
 # Setup
-title:            Blog
-tagline:          Blog
+title:            Personal Blog
+tagline:          Adrian Swarzyński
 url:              http://swarzynski.github.io/
 paginate:            5
 baseurl:          /
