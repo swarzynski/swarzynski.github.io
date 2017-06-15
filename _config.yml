@@ -1,0 +1,28 @@
+timezone: Europe/Warsaw
+# Dependencies
+markdown:       kramdown
+redcarpet:
+    extensions: ['smart']
+
+highlighter:         rouge
+fenced_code_blocks:  true
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+
+# Setup
+title:            Blog
+tagline:          Blog
+url:              http://swarzynski.github.io/
+paginate:            5
+baseurl:          /
+
+
+# About/contact
+author:
+  name:           Adrian Swarzyński
+  url:            http://swarzynski.github.io/
+  email:          adrian.swarzynski@gmail.com
+
